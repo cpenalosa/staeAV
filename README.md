@@ -21,6 +21,5 @@ The fields marked with an asterisk are already populated when you create the dat
 |active | Boolean 	| True/false if the vehicle is currently in service. | True/False | "True"
 |heading | Number (degrees) 	| Direction the vehicle is pointing | Min: 0, Max: 360 | "175.45"
 |speed 	| Number (KM/H) | Speed the UAS is currently going. | Min: 0, Max: 1000 | "5 KM/H" 
-|images | Array 	| List of images related to the service vehicle | Not empty, max character length: 2048 | [https://stae.co/service1.jpg, https://stae.co/service2.jpg]
-|location | Point 	| Location where the UAS exists. | GEOJSON format | {"type": "Point", "coordinates": [-74.0429, 40.744]}
-
+|images | Array 	| List of images related to the autonomous vehicle | Not empty, max character length: 2048 | [https://stae.co/AV1.jpg, https://stae.co/AV2.jpg]
+|location | Point 	| Location where the autonomous vehicle exists. | GEOJSON format | {"type": "Point", "coordinates": [-74.0429, 40.744]}
