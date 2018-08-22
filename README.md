@@ -20,6 +20,8 @@ The fields marked with an asterisk are already populated when you create the dat
 |plate | Number 	| Registered license plate code for the vehicle. | Not empty, max character length: 2048 | "ABC1234"
 |active | Boolean 	| True/false if the vehicle is currently in service. | True/False | "True"
 |heading | Number (degrees) 	| Direction the vehicle is pointing | Min: 0, Max: 360 | "175.45"
-|speed 	| Number (KM/H) | Speed the UAS is currently going. | Min: 0, Max: 1000 | "5 KM/H" 
+|speed 	| Number (KM/H) | Speed the AV is currently going. | Min: 0, Max: 1000 | "5 KM/H" 
+|passengers 	| Number | Number of passengers currently in the vehicle. | Min: 0, Max: 1000 | "1" 
+|capacity 	| Number | Maximum number of passengers the vehicle can hold. | Min: 0, Max: 1000 | "5" 
 |images | Array 	| List of images related to the autonomous vehicle | Not empty, max character length: 2048 | [https://stae.co/AV1.jpg, https://stae.co/AV2.jpg]
 |location | Point 	| Location where the autonomous vehicle exists. | GEOJSON format | {"type": "Point", "coordinates": [-74.0429, 40.744]}
